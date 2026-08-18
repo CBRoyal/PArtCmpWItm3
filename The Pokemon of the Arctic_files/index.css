@@ -17,3 +17,48 @@
 html{
     background-image: url("https://tse3.mm.bing.net/th/id/OIP.dKz7ru7-DKlfIM83dvbpLgHaHa?cb=ucfimgc2&rs=1&pid=ImgDetMani&o=7&rm=3");
 }
+#pokemon-art-shopping-website-arctic-webpage{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 5% 10% 40% 30% 15%;
+    grid-template-areas:
+    "home-link home-link"
+    "title title"
+    "image purchase"
+    "description description"
+    "contact contact";
+}
+#the-pokemon-of-the-arctic-webpage-title{
+    grid-area: title;
+    text-shadow: 2px 2px var(--pokemon-art-shopping-website-title-shadow-color);
+    font-size: 50pt;
+    color: var(--pokemon-art-shopping-website-title-color);
+    border: 5px solid var(--pokemon-art-shopping-website-title-border-color);
+    width: 95%;
+    margin-bottom: 10px;
+}
+p, li{
+    font-size: 20pt;
+}
+#the-pokemon-of-the-arctic-artpiece{
+    grid-area: image;
+    margin-left: 5px;
+}
+.pokemon-art-shopping-website-headers{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 35px;
+    color: var(--pokemon-art-shopping-website-title-color);
+    text-shadow: 2px 2px var(--pokemon-art-shopping-website-title-shadow-color);
+}
+#contact{
+    grid-area: contact;
+    text-shadow: 1px 1px var(--pokemon-art-shopping-website-title-shadow-color);
+    font-size: 20pt;
+    color: var(--pokemon-art-shopping-website-title-color);
+    background-color: var(--pokemon-art-shopping-website-box-bg-color);
+    border: 5px solid var(--pokemon-art-shopping-website-contact-section-border-color);
+    width: 95%;
+    margin-top: 5px;
+    margin-left: 8px;
+}
