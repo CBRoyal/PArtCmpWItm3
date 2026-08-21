@@ -62,3 +62,59 @@ p, li{
     margin-top: 5px;
     margin-left: 8px;
 }
+#home{
+    grid-area: home-link;
+    display: inline-flex;
+    position: relative;
+    align-items: center;
+    gap: 10px;
+    margin-left: 50px;
+    text-shadow: 2px 2px var(--pokemon-art-shopping-website-title-shadow-color);
+    color: var(--pokemon-art-shopping-website-title-color);
+    font-size: 30pt;
+    overflow: visible;
+}
+.smeargle-tail-wrap{
+    width: 90px;
+    height: 90px;
+    position: relative;
+    opacity: 0;
+    transform: translateX(-10px) scale(0.8);
+    transition:
+      opacity 0.25 ease,
+      transform 0.25 ease;
+    pointer-events: none;
+}
+#home:hover .smeargle-tail-wrap{
+    opacity: 1;
+    transform: translateX(0) scale(1);
+}
+.smeargle-tail{
+    transform-origin: 80% 20%;
+}
+.smeargle-tail-stem{
+    stroke: var(--pokemon-art-shopping-website-smeargle-tail-color);
+    stroke-width: 16px;
+    fill: none;
+    stroke-linecap: round;
+}
+.smeargle-tail-tip{
+    fill: var(--pokemon-art-shopping-website-smeargle-tail-tip-color);
+}
+.smeargle-tail-shine{
+    fill: var(--pokemon-art-shopping-website-smeargle-tail-shine-color);
+}
+#purchaseBox{
+    grid-area: purchase;
+    margin-left: 30px;
+}
+#price{
+    text-shadow: 2px 2px var(--pokemon-art-shopping-website-title-shadow-color);
+    color: var(--pokemon-art-shopping-website-title-color);
+    font-size: 30pt;
+}
+#pokemon-art-shopping-website-purchase-button{
+    padding: 15px 50px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 25px;
+}
