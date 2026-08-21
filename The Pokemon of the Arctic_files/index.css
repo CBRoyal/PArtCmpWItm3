@@ -144,6 +144,9 @@ p, li{
     #home{
         margin-left: 10px;
     }
+    #the-pokemon-of-the-arctic-webpage-title{
+        padding-bottom: 20px;
+    }
     #the-pokemon-of-the-arctic-artpiece-image{
         width: 85%;
         height: 90%;
@@ -186,6 +189,9 @@ p, li{
         width: 90%;
         height: 130%;
         margin-left: 15px;
+    }
+    #the-pokemon-of-the-arctic-webpage-title{
+        padding-bottom: 0px;
     }
     #the-pokemon-of-the-arctic-artpiece-image{
         margin-top: 140px;
