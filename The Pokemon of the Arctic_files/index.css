@@ -37,6 +37,7 @@ html{
     border: 5px solid var(--pokemon-art-shopping-website-title-border-color);
     width: 95%;
     margin-bottom: 10px;
+    padding-bottom: 5px;
 }
 p, li{
     font-size: 20pt;
