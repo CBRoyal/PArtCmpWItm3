@@ -185,13 +185,11 @@ p, li{
     #home{
         margin-left: 5px;
     }
-    h1{
-        width: 90%;
-        height: 100%;
-        margin-left: 5px;
-    }
     #the-pokemon-of-the-arctic-webpage-title{
         padding-bottom: 0px;
+        width: 90%;
+        height: 100%;
+        margin-left: 3px;
     }
     #the-pokemon-of-the-arctic-artpiece-image{
         margin-top: 140px;
