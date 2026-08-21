@@ -152,4 +152,21 @@ p, li{
         height: 90%;
         margin-top: 75px;
     }
+    #purchaseBox{
+        margin-top: 35px;
+        margin-left: 15px;
+    }
+    h1, #arcticDescription{
+        width: 90%;
+    }
+    #arcticDescription{
+        margin-top: 20px;
+        margin-left: 3px;
+        padding-bottom: 140px;
+    }
+    #contact{
+        padding-left: 5px;
+        margin-right: 10px;
+        width: 90%;
+    }
 }
