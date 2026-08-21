@@ -170,3 +170,51 @@ p, li{
         width: 90%;
     }
 }
+@media (max-width: 500px){
+    #pokemon-art-shopping-website-arctic-webpage{
+        grid-template-columns: 100%;
+        grid-template-rows: 5% 10% 35% 10% 30% 10%;
+        grid-template-areas:
+        "home-link"
+        "title"
+        "image"
+        "purchase"
+        "description"
+        "contact";
+    }
+    #home{
+        margin-left: 5px;
+    }
+    h1{
+        width: 90%;
+        height: 130%;
+        margin-left: 15px;
+    }
+    #the-pokemon-of-the-arctic-artpiece-image{
+        margin-top: 140px;
+        margin-left: 15px;
+        width: 90%;
+    }
+    #purchaseBox{
+        display: flex;
+        gap: 35px;
+        margin-top: 35px;
+        margin-left: 25px;
+    }
+    #price{
+        margin-top: 50px;
+    }
+    #pokemon-art-shopping-website-purchase-button{
+        margin-top: 45px;
+    }
+    #arcticDescription{
+        margin-top: 35px;
+        padding-bottom: 210px;
+    }
+    #contact{
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-right: 15px;
+        padding-right: 43px;
+    }
+}
