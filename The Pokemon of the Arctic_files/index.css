@@ -140,3 +140,16 @@ p, li{
     margin-left: 5px;
     color: var(--pokemon-art-shopping-website-email-link-color);
 }
+@media (max-width: 800px){
+    #home{
+        margin-left: 10px;
+    }
+    h1{
+        height: 110%;
+    }
+    #the-pokemon-of-the-arctic-artpiece-image{
+        width: 85%;
+        height: 90%;
+        margin-top: 75px;
+    }
+}
